@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxt/test-utils/module',
     '@nuxt/image',
-    '@nuxt/icon',
     'dayjs-nuxt',
+    '@nuxt/ui',
   ],
 });
