@@ -10,11 +10,12 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxt/eslint',
-    '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
     '@nuxt/test-utils/module',
     '@nuxt/image',
     'dayjs-nuxt',
+    '@nuxt/icon',
+    '@nuxtjs/color-mode',
     '@nuxt/ui',
   ],
 });
