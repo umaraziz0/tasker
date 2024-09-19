@@ -1,8 +1,10 @@
-# Tasker
+# Tasker. :pencil:
 
-An open source, self hosted project management tool.
+An open source project management tool with robust features, built with Nuxt 3 & TypeScript.
 
-## Features
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+## ⭐ Features
 
 - [ ] 📝 Create, assign, and manage tasks
 - [ ] 📋 Kanban Board
@@ -13,79 +15,39 @@ An open source, self hosted project management tool.
 - [ ] 📆 Calendar
 - [ ] 🔔 Task Notifications
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - [Nuxt 3](https://nuxt.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
-## Setup
+## 🏗️ Setup
 
-Make sure to install the dependencies:
+Install the dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Run the development server:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+pnpm dev
 ```
 
-## Production
-
-Build the application for production:
+(optional) Build the application for production:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+pnpm build
 ```
 
-Locally preview production build:
+## ❤️ Contributing
 
-```bash
-# npm
-npm run preview
+Contributions are always welcome!
 
-# pnpm
-pnpm run preview
+See `contributing.md` for ways to get started.
 
-# yarn
-yarn preview
+Please adhere to this project's `code of conduct`.
 
-# bun
-bun run preview
-```
+## ⚖️ License
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+[MIT](https://choosealicense.com/licenses/mit/)
