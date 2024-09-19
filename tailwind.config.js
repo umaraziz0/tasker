@@ -17,8 +17,15 @@ module.exports = {
       },
     },
 
+    fontFamily: {
+      sans: ['Poppins', 'sans-serif'],
+    },
+
     extend: {
       colors: {
+        'brand-black': '#121212',
+        'brand-cream': 'f1e3e4',
+
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
