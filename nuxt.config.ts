@@ -10,12 +10,24 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxt/eslint',
+    '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
     '@nuxt/test-utils/module',
     '@nuxt/image',
     'dayjs-nuxt',
     '@nuxt/icon',
-    '@nuxtjs/color-mode',
-    '@nuxt/ui',
+    'shadcn-nuxt',
   ],
+
+  shadcn: {
+    /**
+     * Prefix for all the imported component
+     */
+    prefix: '',
+    /**
+     * Directory that the component lives in.
+     * @default "./components/ui"
+     */
+    componentDir: './components/ui',
+  },
 });

@@ -1,4 +1,4 @@
-# Tasker. :pencil:
+# tasker. :pencil:
 
 An open source project management tool with robust features, built with Nuxt 3 & TypeScript.
 
