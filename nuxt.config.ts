@@ -15,5 +15,6 @@ export default defineNuxtConfig({
     '@nuxt/test-utils/module',
     '@nuxt/image',
     '@nuxt/icon',
+    'dayjs-nuxt',
   ],
 });

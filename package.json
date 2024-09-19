@@ -22,6 +22,7 @@
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@vueuse/core": "^11.1.0",
     "@vueuse/nuxt": "^11.1.0",
+    "dayjs-nuxt": "^2.1.11",
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"
