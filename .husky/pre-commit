@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo ""
+echo "Linting code..."
+npx lint-staged --no-stash
+
+echo ""
+echo "Checking types..."
+pnpm typecheck
+
+# echo ""
+# echo "Testing code..."
+# pnpm test

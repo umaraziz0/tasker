@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+BRANCH_NAME=$(git symbolic-ref --short HEAD)
+
+if [ "$BRANCH_NAME" = "main" ]; then
+  echo "Current branch is $BRANCH_NAME, skipping post-merge hook."
+  exit 0
+fi
+
+echo ""
+echo "Installing dependencies..."
+pnpm install
+echo ""

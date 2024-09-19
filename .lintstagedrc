@@ -1,0 +1,4 @@
+{
+  "**/*.{js,cjs,ts,vue,html}": "pnpm lint:fix",
+  "**/*": "prettier --write --ignore-unknown"
+}
