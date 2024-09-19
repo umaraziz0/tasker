@@ -16,6 +16,7 @@ An open source, self hosted project management tool.
 ## Tech Stack
 
 - [Nuxt 3](https://nuxt.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 ## Setup
 
