@@ -1,9 +1,12 @@
-# tasker. :pencil:
+<h1 align="center">tasker. 📝</h1>
 
-An open source project management tool with robust features, built with Nuxt 3 & TypeScript.
+<div align="center">
+<p>An open source project management tool with robust features, built with Nuxt 3 & TypeScript.</p>
 
 ![example workflow](https://github.com/umaraziz0/tasker/actions/workflows/push_workflow.yml/badge.svg)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+</div>
 
 ## ⭐ Features
 
