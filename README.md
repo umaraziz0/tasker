@@ -2,6 +2,7 @@
 
 An open source project management tool with robust features, built with Nuxt 3 & TypeScript.
 
+![example workflow](https://github.com/umaraziz0/tasker/actions/workflows/push_workflow.yml/badge.svg)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 ## ⭐ Features
@@ -17,8 +18,10 @@ An open source project management tool with robust features, built with Nuxt 3 &
 
 ## 🛠️ Tech Stack
 
+- [TypeScript](https://www.typescriptlang.org/)
 - [Nuxt 3](https://nuxt.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Shadcn UI Vue](https://www.shadcn-vue.com/)
 
 ## 🏗️ Setup
 
