@@ -38,4 +38,4 @@ jobs:
           clean_node_folder: false
 
       - name: Check types
-        run: nuxi typecheck
+        run: npx nuxi typecheck
