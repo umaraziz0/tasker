@@ -8,5 +8,12 @@ export default defineNuxtConfig({
     typeCheck: true,
   },
 
-  modules: ['@nuxt/eslint', '@nuxtjs/tailwindcss', '@vueuse/nuxt', '@nuxt/test-utils/module', '@nuxt/image'],
+  modules: [
+    '@nuxt/eslint',
+    '@nuxtjs/tailwindcss',
+    '@vueuse/nuxt',
+    '@nuxt/test-utils/module',
+    '@nuxt/image',
+    '@nuxt/icon',
+  ],
 });
