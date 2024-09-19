@@ -1,11 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 
-import defaultTheme from 'tailwindcss/defaultTheme';
-
 export default {
   theme: {
     fontFamily: {
-      sans: ['Poppins', ...defaultTheme.fontFamily.sans],
+      sans: ['Poppins', 'sans-serif'],
+    },
+
+    extend: {
+      colors: {
+        'brand-black': '#121212',
+      },
     },
   },
   plugins: [],
