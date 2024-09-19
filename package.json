@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@nuxt/eslint": "^0.5.7",
+    "@nuxt/image": "^1.8.0",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@vueuse/core": "^11.1.0",
     "@vueuse/nuxt": "^11.1.0",
